@@ -124,7 +124,7 @@
             "Tambahkan garam, gula pasir, kaldu bubuk, daun bawang, dan tauge. Aduk rata dan masak sebentar lalu angkat.",
             "Sajikan dalam mangkuk dan beri bahan pelengkap."
         ],
-        "image": "./img/rawon.png"
+        "image": "./img/soto.png"
     },
     {
         "nama": "Nasi Kuning",
@@ -191,7 +191,7 @@
             "Panaskan minyak untuk menggoreng, lalu masukkan kentang tadi, tunggu sampai matang kecoklatan",
             "Perkedel siap disajikan dengan nasi kuning "
         ],
-        "image": "./img/rawon.png"
+        "image": "./img/naskun.png"
     },
     {
         "nama": "Gulai Kambing",
@@ -227,6 +227,70 @@
             "Masak sambil terus diaduk hingga bumbu meresap",
             "Setelah daging empuk dan matang, angkat dan sajikan dengan taburan bawang goreng"
         ],
-        "image": "./img/rawon.png"
+        "image": "./img/gulkam.png"
+    },
+    {
+        "nama": "Pecel Madiun",
+        "deskripsi": "Pecel Madiun bisa jadi jenis pecel paling legendaris di Jawa Timur. Ciri khasnya adalah sambal yang gurih dan pedas. Isian dari pecel ini terbilang ramai, untuk sayurannya saja ada kacang panjang, daun singkong, bayam, kenikir, kecambah, bunga turi, daun pepaya, kemangi, petai cina, dan mentimun.",
+        "bahan": [
+            "100 gram tauge, siangi, rebus",
+            "2 ikat bayam, siangi, rebus",
+            "2 buah timun krau, jika ada, rebus",
+            "1 ikat daun singkong",
+            "50 gram kacang panjang, potong rebus",
+            "1 ikat daun kacang, siangi",
+            "50 gram bunga turi, buang bunga sarinya, rebus",
+            "250 gram kacang tanah, goreng (halus)",
+            "5 siung bawang putih, goreng (halus)",
+            "3 buah cabai merah, goreng (halus)",
+            "1 ruas kencur (halus)",
+            "10 buah cabai rawit, goreng (halus)",
+            "1/2 sdt air asam jawa (halus)",
+            "5 lembar daun jeruk (halus)",
+            "2 sdt gula merah (halus)",
+            "Garam secukupnya (halus)",
+            "Kemangi secukupnya (pelengkap)",
+            "1 buah timun, potong kotak (pelengkap)",
+            "Petai cina, secukupnya (pelengkap)",
+            "Peyek kacang secukupnya (pelengkap)"
+        ],
+        "cara": [
+            "Haluskan semua bahan bumbu pecel hingga halus dan rata, kemudian larutkan bumbu pecel dengan air. Aduk hingga semuanya tercampur rata, sisihkan.",
+            "Tata semua sayuran di dalam pincuk piring daun. Siram sayuran dengan bumbu kacang secukupnya. Hidangkan bersama pelengkap. Pecel madiun siap dinikmati."
+        ],
+        "image": "./img/pecelMD.png"
+    },
+    {
+        "nama": "Gudeg",
+        "deskripsi": "Gudeg yang dibuat dari nangka muda merupakan makanan ikonik Jogjakarta. Dimasak dengan bumbu dan santan hingga warnanya kecokelatan dan manis gurih rasanya.",
+        "bahan": [
+            "1 kg nangka muda",
+            "5 butir telur ayam rebus, kupas",
+            "2 lembar daun salam",
+            "3 lembar daun jeruk",
+            "3 cm lengkuas, memarkan",
+            "120 g gula Jawa yang cokelat tua",
+            "1.5 liter santan sedang",
+            "500 ml santan kental",
+            "8 butir bawang merah",
+            "5 siung bawang putih",
+            "5 butir kemiri",
+            "1 sdm ketumbar",
+            "1 potong terasi",
+            "1/4 sdt jintan",
+            "2 sdt garam",
+            "Sambal goreng krecek (pelengkap)",
+            "Opor ayam (pelengkap)",
+            "Sambal bajak (pelengkap)"
+        ],
+        "cara": [
+            "Potong nangka muda berbentuk dadu besar. Rebus nangka muda dalam air atau air kelapa tua secukupnya hingga lunak. Angkat dan tiriskan nangka muda.",
+            "Bumbu Halus: Haluskan semua bahan bumbu dengan blender atau ulekan hingga halus benar.",
+            "Masukkan nangka muda dan telur ke dalam panci. Tuangi santan, masukkan bumbu halus, daun salam, daun jeruk, lengkuas dan gula merah.",
+            "Masak dengan api sedang hingga bumbu meresap dan kuahnya susut.",
+            "Tuangkan santan kental. Masak dengan api hingga kuah benar-benar susut. Matikan api.",
+            "Sajikan gudeg dengan pelengkapnya."
+        ],
+        "image": "./img/gudeg.png"
     }
 ]
