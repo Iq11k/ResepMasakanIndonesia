@@ -162,4 +162,3 @@ function resepOutput() {
     isiResep.innerHTML = output;
     resepPage.appendChild(isiResep);
 }
-console.log("Amannn");
