@@ -128,7 +128,7 @@
     },
     {
         "nama": "Nasi Kuning",
-        "deskripsi": "",
+        "deskripsi": "Nasi kuning sudah ada sejak lama di Indonesia. Kerap dijadikan sebagai simbol perayaan seperti acara syukuran. Warna dan bentuk dari resep nasi kuning untuk syukuran melambangkan emas dan kekayaan yang menggunung.",
         "bahan": [
             "<strong>Nasi kuning:</strong>",
             "Beras secukupnya (3 cup masing-masing 200gr)",
@@ -195,7 +195,7 @@
     },
     {
         "nama": "Gulai Kambing",
-        "deskripsi": "",
+        "deskripsi": "Gulai merupakan hidangan khas Minangkabau dan Melayu yang sudah familiar hampir di tiap wilayah Indonesia. Membuat gulai, terutama gulai kambing, tidaklah mudah namun layak dicoba untuk menghidangkan santapan yang spesial di rumah.",
         "bahan": [
             "500 gr daging kambing",
             "1 liter Sasa Santan Cair Omega 3 ",
@@ -216,7 +216,17 @@
             "4 buah kapulaga(halus)",
             "Gula dan garam secukupnya (halus)"
         ],
-        "cara": [],
+        "cara": [
+            "Tumis bumbu halus, kayu manis, daun salam, lengkuas, daun jeruk, dan serai sampai harum",
+            "Masukkan daging kambing",
+            "Aduk rata dan masak hingga berubah warna",
+            "Tambahkan cengkeh, gula, dan garam",
+            "Koreksi rasa",
+            "Tuang santan",
+            "Kecilkan api",
+            "Masak sambil terus diaduk hingga bumbu meresap",
+            "Setelah daging empuk dan matang, angkat dan sajikan dengan taburan bawang goreng"
+        ],
         "image": "./img/rawon.png"
     }
 ]
