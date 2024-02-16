@@ -1,73 +1,49 @@
-let realData = [
-    { nama: "Nasi Goreng", bahan: "", cara: "" },
-    {
-        nama: "Rendang",
-        deskripsi:
-            "Salah satu resep masakan Indonesia yang selalu membuat ketagihan adalah rendang Padang. Siapa yang tidak kenal dengan rendang daging yang satu ini, kita semua tentu sudah tahu betapa lezat dan harumnya masakan ini.",
-        bahan: [
-            "500 gram daging sapi, potong kotak jadi 8 atau 10 bagian",
-            "600 ml santan kental, dari satu setengah butir kelapa",
-            "5 sdm minyak goreng",
-            "300 ml air",
-            "10 buah cabai merah iris (halus)",
-            "6 butir bawah merah (halus)",
-            "3 siung bawah putih (halus)",
-            "3 cm kunyit (halus)",
-            "2lembar daun kunyit (halus)",
-            "1 batang serai (halus)",
-            "3 cm jahe (halus)",
-            "3 cm lengkuas (halus)",
-            "1 sdm garam (halus)",
-            "2 butir asam kandis (halus)",
-        ],
-        cara: [
-            "Tumis bumbu hingga harum, masukkan daging, aduk hingga berubah warna.",
-            "Masukkan daun kunyit, serai, dan asam kandis. Aduk perlahan.",
-            "Masukkan air. Masak hingga air menyusut. Aduk perlahan sesekali.",
-            "Kemudian Masukkan santan, masak dengan api sedang.",
-            "Biarkan hingga daging empuk, kuah kering, dan berminyak. Angkat, sajikan.",
-        ],
-        image: "./img/rendang.png",
-    },
-];
-fetch("https://iq11k.github.io/ResepAPI/resep.json")
-    .then((response) => {
-        return response.json();
-    })
-    .then((data) => {
-        realData = data;
-        data.map((menu) => {
-            const { nama, deskripsi, bahan, cara, image } = menu;
-            let menuDiv = document.createElement("div");
-            menuDiv.className = "menu";
-            let imgDiv = document.createElement("img");
-            imgDiv.src = image;
-            menuDiv.appendChild(imgDiv);
-            list.appendChild(menuDiv);
+document.addEventListener("DOMContentLoaded", function () {
+    const labelNama = document.querySelector(".content .nama");
+    let list = document.querySelector(".list");
+    let active = 1;
+    fetch("https://iq11k.github.io/ResepAPI/resep.json")
+        .then((response) => {
+            return response.json();
+        })
+        .then((data) => {
+            realData = data;
+            data.map((menu) => {
+                const { nama, deskripsi, bahan, cara, image } = menu;
+                let menuDiv = document.createElement("div");
+                menuDiv.className = "menu";
+                let imgDiv = document.createElement("img");
+                imgDiv.src = image;
+                menuDiv.appendChild(imgDiv);
+                list.appendChild(menuDiv);
+            });
+            menus = document.querySelectorAll(".list .menu");
+            labelNama.innerHTML = data[active].nama;
+        })
+        .then(() => {
+            menus = document.querySelectorAll(".list .menu");
+            count = menus.length;
+            if (count != 0) {
+                widhth_item = menus[active].offsetWidth;
+            }
+            runCarousel();
         });
+});
 
-        labelNama.innerHTML = realData[active].nama;
-    });
-
-let list = document.querySelector(".list");
+let body = document.querySelector("body");
 let menus = document.querySelectorAll(".list .menu");
+const labelNama = document.querySelector(".content .nama");
+let list = document.querySelector(".list");
 let count = menus.length;
 const next = document.getElementById("next");
 const prev = document.getElementById("prev");
-const labelNama = document.querySelector(".content .nama");
 const resepPage = document.querySelector(".resep");
 let xButton = document.querySelector(".xBTN");
 let leftTransform = 0;
 let active = 1;
 let widhth_item = 1;
+let realData = {};
 
-window.onload = function () {
-    menus = document.querySelectorAll(".list .menu");
-    count = menus.length;
-    widhth_item = menus[active].offsetWidth;
-    console.log("DOM fully loaded and parsed onLoad");
-    runCarousel();
-};
 next.onclick = () => {
     active = active >= count - 1 ? count - 1 : active + 1;
     runCarousel();
