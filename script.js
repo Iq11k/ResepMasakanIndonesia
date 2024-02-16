@@ -99,19 +99,6 @@ window.addEventListener("scroll", () => {
     }
 });
 
-function runCarousel() {
-    prev.style.opacity = active == 0 ? "0" : "1";
-    next.style.opacity = active == count - 1 ? "0" : "1";
-    let old_active = document.querySelector(".menu.active");
-    if (old_active) old_active.classList.remove("active");
-    menus[active].classList.add("active");
-    leftTransform = widhth_item * (active - 1) * -1;
-    list.style.transform = `translateX(${leftTransform}px)`;
-    labelNama.innerHTML = realData[active].nama;
-    resepOutput();
-}
-runCarousel();
-
 function isScrolledIntoView(e) {
     const rect = e.getBoundingClientRect();
     const elemBottom = rect.bottom;
