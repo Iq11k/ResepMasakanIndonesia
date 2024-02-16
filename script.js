@@ -30,7 +30,7 @@ let realData = [
         image: "./img/rendang.png",
     },
 ];
-fetch("./resep.json")
+fetch("https://iq11k.github.io/ResepAPI/resep.json")
     .then((response) => {
         return response.json();
     })
