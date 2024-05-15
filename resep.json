@@ -292,5 +292,38 @@
             "Sajikan gudeg dengan pelengkapnya."
         ],
         "image": "./img/gudeg.png"
+    },
+    {
+        "nama": "Zeko bakar",
+        "deskripsi": "zeko bakar pake kecap",
+        "bahan": [
+            "1 kg nangka muda",
+            "5 butir telur ayam rebus, kupas",
+            "2 lembar daun salam",
+            "3 lembar daun jeruk",
+            "3 cm lengkuas, memarkan",
+            "120 g gula Jawa yang cokelat tua",
+            "1.5 liter santan sedang",
+            "500 ml santan kental",
+            "8 butir bawang merah",
+            "5 siung bawang putih",
+            "5 butir kemiri",
+            "1 sdm ketumbar",
+            "1 potong terasi",
+            "1/4 sdt jintan",
+            "2 sdt garam",
+            "Sambal goreng krecek (pelengkap)",
+            "Opor ayam (pelengkap)",
+            "Sambal bajak (pelengkap)"
+        ],
+        "cara": [
+            "Potong nangka muda berbentuk dadu besar. Rebus nangka muda dalam air atau air kelapa tua secukupnya hingga lunak. Angkat dan tiriskan nangka muda.",
+            "Bumbu Halus: Haluskan semua bahan bumbu dengan blender atau ulekan hingga halus benar.",
+            "Masukkan nangka muda dan telur ke dalam panci. Tuangi santan, masukkan bumbu halus, daun salam, daun jeruk, lengkuas dan gula merah.",
+            "Masak dengan api sedang hingga bumbu meresap dan kuahnya susut.",
+            "Tuangkan santan kental. Masak dengan api hingga kuah benar-benar susut. Matikan api.",
+            "Sajikan gudeg dengan pelengkapnya."
+        ],
+        "image": "./img/gudeg.png"
     }
 ]
